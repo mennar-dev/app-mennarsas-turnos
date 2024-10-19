@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             AppmennarturnosTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "App Mennar turnos",
+                        name = "Aplicación móvil para gestionar turnos",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
